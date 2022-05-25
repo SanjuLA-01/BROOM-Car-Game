@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Broom</string>
+    <string name="logo">TODO</string>
+    <string name="slashText">BROOM</string>
+    <string name="logoText">BROOM</string>
+    <string name="buttonMake">Button</string>
+    <string name="buttonHint">Button</string>
+    <string name="buttonIdentify">Button</string>
+    <string name="buttonAdvanced">Button</string>
+    <string name="identify_the_car_make">Identify the Car Make</string>
+    <string name="hints">Hints</string>
+    <string name="identify_the_car_image">Identify the Car Image</string>
+    <string name="advanced_level">Advanced Level</string>
+    <string name="logoMain">logo</string>
+    <string name="random_images">Random Images</string>
+    <string name="carIdentify">Identify</string>
+    <string name="hintimage">hintImage</string>
+    <string name="enterLetter">Enter</string>
+    <string name="submitAnswer">Submit</string>
+    <string name="enter_a_letter">Enter a letter</string>
+    <string name="next">NEXT</string>
+    <string name="randomimg1">randomImg1</string>
+    <string name="string_randomimg1" />
+    <string name="randomimg2">randomImg2</string>
+    <string name="randomimg3">randomImg3</string>
+    <string name="submit">Submit</string>
+    <string name="enter_brand_name1">Enter Brand Name</string>
+    <string name="enter_brand_name2">Enter Brand Name</string>
+    <string name="enter_brand_name3">Enter Brand Name</string>
+    <string name="img1">img1</string>
+    <string name="img2">img2</string>
+    <string name="img3">img3</string>
+    <string name="enter_brand1">Enter Brand</string>
+    <string name="enter_brand2">Enter Brand</string>
+    <string name="enter_brand3">Enter Brand</string>
+
+    //carBrandNamesArray
+    <string-array name="Brands">
+        <item>BMW</item>
+        <item>FORD</item>
+        <item>FERRARI</item>
+        <item>PORSCHE</item>
+        <item>TOYOTA</item>
+    </string-array>
+
+    //carImageArray
+    <array name="Imgs">
+        <item>@drawable/bmw1</item>
+        <item>@drawable/bmw2</item>
+        <item>@drawable/bmw3</item>
+        <item>@drawable/bmw4</item>
+        <item>@drawable/bmw5</item>
+        <item>@drawable/bmw6</item>
+        <item>@drawable/bmw7</item>
+        <item>@drawable/bmw8</item>
+        <item>@drawable/bmw9</item>
+        <item>@drawable/bmw10</item>
+        <item>@drawable/ferrari1</item>
+        <item>@drawable/ferrari2</item>
+        <item>@drawable/ferrari3</item>
+        <item>@drawable/ferrari4</item>
+        <item>@drawable/ferrari5</item>
+        <item>@drawable/ford1</item>
+        <item>@drawable/ford2</item>
+        <item>@drawable/ford3</item>
+        <item>@drawable/ford4</item>
+        <item>@drawable/ford5</item>
+        <item>@drawable/porsche1</item>
+        <item>@drawable/porsche2</item>
+        <item>@drawable/porsche3</item>
+        <item>@drawable/porsche4</item>
+        <item>@drawable/porsche5</item>
+        <item>@drawable/toyota1</item>
+        <item>@drawable/toyota2</item>
+        <item>@drawable/toyota3</item>
+        <item>@drawable/toyota4</item>
+        <item>@drawable/toyota5</item>
+    </array>
+
+</resources>

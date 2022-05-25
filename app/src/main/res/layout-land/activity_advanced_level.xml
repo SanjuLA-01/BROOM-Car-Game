@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#070000"
+    tools:context=".AdvancedLevel">
+
+    <TextView
+        android:id="@+id/ScoreAdvanced"
+        android:layout_width="278dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center_vertical|end"
+        android:textColor="#D3E8731A"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageAdvanced1"
+        android:layout_width="153dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/img1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageAdvanced2"
+        android:layout_width="153dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:contentDescription="@string/img2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageAdvanced1" />
+
+    <ImageView
+        android:id="@+id/imageAdvanced3"
+        android:layout_width="153dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="280dp"
+        android:contentDescription="@string/img3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/image1EditText"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="@string/enter_brand1"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageAdvanced1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/image2EditText"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="36dp"
+        android:autofillHints=""
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="@string/enter_brand2"
+        android:inputType="textPersonName"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageAdvanced2"
+        app:layout_constraintTop_toBottomOf="@+id/image1RealText" />
+
+    <EditText
+        android:id="@+id/image3EditText"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:autofillHints=""
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:hint="@string/enter_brand3"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/imageAdvanced3"
+        app:layout_constraintTop_toBottomOf="@+id/imageAdvanced2" />
+
+    <TextView
+        android:id="@+id/image1RealText"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageAdvanced1"
+        app:layout_constraintTop_toBottomOf="@+id/image1EditText" />
+
+    <TextView
+        android:id="@+id/image2RealText"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageAdvanced2"
+        app:layout_constraintTop_toBottomOf="@+id/image2EditText" />
+
+    <TextView
+        android:id="@+id/image3RealText"
+        android:layout_width="136dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintStart_toEndOf="@+id/imageAdvanced3"
+        app:layout_constraintTop_toBottomOf="@+id/image3EditText" />
+
+    <TextView
+        android:id="@+id/correctionAdvanced"
+        android:layout_width="249dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.893"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/submitAdvanced"
+        android:layout_width="272dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="@string/submit"
+        android:textSize="24sp"
+        app:backgroundTint="#D3E8731A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.99"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/correctionAdvanced" />
+</androidx.constraintlayout.widget.ConstraintLayout>
